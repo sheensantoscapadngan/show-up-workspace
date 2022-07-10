@@ -1,5 +1,9 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "show-up-backend": "apps/show-up-backend",
+    "show-up-frontend": "apps/show-up-frontend",
+    "show-up-frontend-e2e": "apps/show-up-frontend-e2e"
+  }
 }
